@@ -1,0 +1,3 @@
+# Attach your 512-byte MBR file, followed by 1st stage bootloader as floppy drive A
+floppya: 1_44=img.bin, status=inserted
+boot: a
